@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestCommission" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-16T20:47:49" hostname="LAPTOP-EJ9DRU6D" time="0.215">
+<testsuite name="TestCommission" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-17T00:12:06" hostname="LAPTOP-EJ9DRU6D" time="0.19">
   <properties/>
-  <testcase name="testGetCommissionSkipWhileLoop" classname="TestCommission" time="0.173"/>
-  <testcase name="testGetCommissionEnterWhileLoop" classname="TestCommission" time="0.042"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Nov 16, 2023 3:47:49 PM CalculateCommission getCommission
+  <testcase name="testGetCommissionSkipWhileLoop" classname="TestCommission" time="0.126"/>
+  <testcase name="testGetCommissionEnterWhileLoop" classname="TestCommission" time="0.062">
+    <system-err><![CDATA[Nov 16, 2023 7:12:06 PM CalculateCommission getCommission
 INFO: Total sales: 2500.0
-Nov 16, 2023 3:47:49 PM CalculateCommission getCommission
+Nov 16, 2023 7:12:06 PM CalculateCommission getCommission
 INFO: Commission is: $520.0
 ]]></system-err>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>
